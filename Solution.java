@@ -25,15 +25,14 @@ public class Solution {
             else{
              tempOddArray[l]= inputStringToChar[j];   
 				l++;
-            }}
+            }
+	 }
      String oddString = new String(tempOddArray);
      String evenString = new String(tempEvenArray);
      System.out.print(evenString);   
      System.out.print(" ");
      System.out.print(oddString);   
      System.out.println();
-     
-     
      }
     sc.close();
     }
