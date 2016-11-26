@@ -13,8 +13,7 @@ public class Hourglass {
         for(int i=0; i < 6; i++){
             for(int j=0; j < 6; j++){
                 arr[i][j] = in.nextInt();
-					//arr[i][j] = 1;
-            }
+	    }
         } // end of input to the array
         int loop_value = 0;
         int row = 0;
