@@ -1,7 +1,6 @@
-//Program to encrypt the input string into the character followed by its count
+//GeeksforGeeks.org : Program to encrypt the input string into the character followed by its count
 //example: rama = r1a2m1
 //TIP: Use a linkedhashmap to preserve the ordering of the elements
-
 
 import java.util.*;
 import java.io.*;
@@ -42,7 +41,3 @@ public class Encrypt{
 		System.out.println(final_string);
 	}
 }
-
-
-
-
