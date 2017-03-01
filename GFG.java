@@ -11,6 +11,7 @@ public class GFG{
 		int n = sc.nextInt();
 		System.out.println("Enter k:");
 		int k = sc.nextInt();
+		
 		//convert n to a binary number
 		int binary_n = 0, i = 1;
 		while(n != 0){
@@ -19,8 +20,7 @@ public class GFG{
 			binary_n = binary_n + (remainder*i);
 			i = i * 10;
 		}
-		
-		
+			
 		String n_string = String.format("%08d", binary_n);
 		System.out.println("The binary representation is: "+n_string);
 		if(k <= n_string.length()){
