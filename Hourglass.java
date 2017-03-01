@@ -1,3 +1,14 @@
+/* Given an input like this: 
+ *
+ *  1 1 1 0 0 0 
+ *  0 1 0 0 0 0
+ *  1 1 1 0 0 0
+ *  0 0 0 0 0 0
+ *  0 0 0 0 0 0
+ *  0 0 0 0 0 0
+Give out the largest sum of the hourglass shapes that are formed in the matrix.
+*/
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -36,6 +47,6 @@ public class Hourglass {
 			row += 1;
 		}
 		System.out.println("The best sum is: "+best_sum);
-		
+		in.close();		
     }
 }

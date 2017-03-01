@@ -101,6 +101,7 @@ public class Solution{
 		resultNode = resultNode.next;
 	}
 	System.out.println("Number of elements in result node: "+counter);
+
 	}
 
 }

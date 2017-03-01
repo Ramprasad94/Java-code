@@ -1,3 +1,4 @@
+//COnvert a number to binary and count the number of consecutive 1s in the binary number.
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -28,7 +29,7 @@ public class DtoB {
 				}
 			}
 		System.out.println(best_length);  //print the number of consecutive 1's
-
+		in.close();
         
         }
 }

@@ -17,7 +17,7 @@ public class DecimalToBinary{
 				while(number != 0){
 				int remainder = number%2;
 				number = number/2;
-				binary = binary + (remainder*i); //makes a new addition only when rem is non-zero
+				binary = binary + (remainder*i);
 				i = i * 10;
 				}
 			}

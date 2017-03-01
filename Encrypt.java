@@ -39,5 +39,6 @@ public class Encrypt{
 			System.out.println(entry.getKey()+" : "+entry.getValue());
 		}
 		System.out.println(final_string);
+		sc.close();
 	}
 }

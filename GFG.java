@@ -56,6 +56,6 @@ public class GFG{
 		else{
 			System.out.println("k value was larger than the binary representation of n");
 		}
-		
+		sc.close();
 	}
 }

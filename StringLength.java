@@ -1,3 +1,4 @@
+//Progam to captitalize initial alphabets and also return the sum of new strings
 import java.io.*;
 import java.util.*;
 
@@ -23,5 +24,6 @@ public class StringLength {
     	}
     	System.out.println(A.substring(0,1).toUpperCase()+A.substring(1,A.length()));
     	System.out.println(B.substring(0,1).toUpperCase()+B.substring(1,B.length()));
-    	 	}
+    	sc.close();
+	}
 }
