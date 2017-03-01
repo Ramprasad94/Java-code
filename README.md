@@ -11,4 +11,4 @@ Practice repository
 8. PrintLinkedList.java -- Creates a linkedlist and prints it with each node's address, useful for linkedlist basics and understanding.
 9. DecimalToBinary.java -- Given any decimal number, print its binary representation.
 10. BinaryToDecimal.java -- Given any binary number, print its decimal representation.
-
+11. Problem1.java -- Given any string with number appended at the end, find out if the length of string is equal to given number.
