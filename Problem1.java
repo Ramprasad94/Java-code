@@ -12,10 +12,8 @@ public class Problem1{
 		char[] input_array = input.toCharArray();
 		char temp = input.charAt(input.length()-1);
 		int store_number = Character.getNumericValue(temp);
-		if(input_array.length-1 == store_number){
-			System.out.println(1);
-		}
-		else System.out.println(0);
+		System.out.println((input_array.length-1 == store_number) ? 1 : 0);
+
 		sc.close();
 	}
 }
